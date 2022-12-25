@@ -1,5 +1,34 @@
+import java.util.Scanner;
+
 public class Demo {
+
     public static void main(String[] args) {
-        System.out.println("zlsljxyqslxmxlc");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if(a==1){
+
+            System.out.println(("这是1"));
+        }else if(a==2){
+
+            System.out.println(("这是2"));
+        }else if(a==3){
+            System.out.println(("这是3"));
+        }else if(a==4){
+            System.out.println(("识别不到了"));
+        }
+    }
+
+    public static Boolean createdata(int b) {
+        System.out.println("正在判断");
+        if (b >= 2) {
+            System.out.println("关闭");
+            return false;
+        } else {
+            return true;
+        }
+
+
     }
 }
+
+
